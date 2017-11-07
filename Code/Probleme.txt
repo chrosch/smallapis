@@ -1,0 +1,5 @@
+1. Objekte aus der DB Laden funktioniert nicht wirklich 
+2. Observablelist muss noch angepasst werden, bis jetzt werden sowohl patienten als auch diagnosen in einer liste dargestellt
+3. übergabe der generierten id ist unpraktisch da gui und logik mit einander vermischt werden 
+4. Zugehörigkeiten können über eine Select abfrage angepasst werden(sollten eher darüber angepasst werden)
+5. 
