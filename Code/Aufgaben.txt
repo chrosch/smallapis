@@ -1,0 +1,18 @@
+﻿1. Observablelist muss noch angepasst werden, bis jetzt werden sowohl patienten als auch diagnosen in einer liste dargestellt
+2. übergabe der generierten id ist unpraktisch da gui und logik mit einander vermischt werden 
+3. Zugehörigkeiten können über eine Select abfrage angepasst werden(Sie sollten lieber darüber angepasst werden)
+4. Funktion schreiben um eine FHIR Nachricht zu schreiben 
+5. Funktion schreiben um eine FHIR Nachricht einlesen zu können
+	-> Schwirigkeit ist ein vorgehen zu entwickeln um die richtigen Werte aus der Nachricht aus zu lesen
+	-> als ankündigungen könnten die > genutzt werden und zum abschließen <
+	-> ausßerdem muss geprüft werden ob ein Patient in der DB vorhanden ist
+		- falls es so ist muss nur die Diagnose/Diagnosen hinzugefügt werden
+		- andernfalls muss sowohl Patient als auch die Diagnose/Diagnosen in die DB aufgenommen werden
+6. Zugangsdaten müssen erstellt werden (Loging Daten)
+	-> überlegung ob wir verschiedene Rechte für Ärzt und Arzthelfer nutzen
+7. Passende Attribute müssen für die jeweiligen Objekte gewählt werden 
+
+
+Info: 
+- Die ID  würde ich vom System weiterhin generieren lassen, begründung so könnten wir verhindern das zwei verschiedene DB die gleiche ID für ein Patienten oder Diagnose nutzen
+- Die Datenhaltung ist auf MariaDB ausgelegt ich bin mir nicht sicher ob es ganz normal mit MySQL funktioniert das müsst ihr mal ausprobieren
