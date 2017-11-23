@@ -1,0 +1,6 @@
+online Server 
+ - Um HL7 fhir Nachrichten dort zu speichern 
+ - Um HL7 fhir Nachrichten von dort zu laden 
+ - verschicken von Nachrichten kann so gelöst werden 
+ - wenn Nachrichten geladen werden, können diese gelöscht werden  
+
