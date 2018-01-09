@@ -1,0 +1,23 @@
+1. Gui 
+	- Schöner gestallten
+	- Patienten an klicken um die Diagnosen zu dem Patienten an zu zeigen
+	- Sprachen(am Ende)
+	- Patienten laden doppelt 
+	- Umlaute
+	
+	
+2. DB 
+	- anpassen 
+		- Fhir ID hinzufügen 
+		- weitere Spalten vom fhir Server hinzufügen
+
+3. Carinas Code
+	- code anpassen
+	- Suche auch mit kleinen buchstaben möglich sein
+	- mehrere Diagnosen an klicken könne (auswählen)
+
+4. Post realisieren
+
+5. Prüfen ob Patient in der DB schon ist
+	-> Brauchen wir nicht weil wir unsere eigene ID und die Fhir ID  lokal haben 
+		und für den fhir server haben wir die Fhir ID die fortlaufend generiert wird so lange wir im gleichen server bleiben
