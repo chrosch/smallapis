@@ -1,5 +1,8 @@
 1. Gui 
 	- Schöner gestallten
+		- links Patienten, Rechts diagnosen 
+			- Patienten muss angemackert bleiben
+			
 	- Patienten an klicken um die Diagnosen zu dem Patienten an zu zeigen
 	- Sprachen(am Ende)
 	- Patienten laden doppelt 
